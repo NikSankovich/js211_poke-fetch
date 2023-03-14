@@ -1,0 +1,41 @@
+body {
+    background-image: url("./poke.jpeg");
+    background-size: cover;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: beige; */
+}
+
+.button {
+    width: 20%;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    width: 75%;
+
+}
+
+#winner-div {
+    /* border: 3px solid blue; */
+    display: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
